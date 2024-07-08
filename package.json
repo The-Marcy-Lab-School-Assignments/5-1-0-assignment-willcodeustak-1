@@ -1,0 +1,22 @@
+{
+  "name": "5-1-0-assignment-has-many-key",
+  "version": "1.0.0",
+  "description": "In this assignment, you will be tasked with completing the data management portion of an application.",
+  "scripts": {
+    "preinstall": "cp hooks/pre-commit .git/hooks/pre-commit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:w": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^1.2.2",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "^2.0.22",
+    "score-tests": "^1.0.0"
+  }
+}
